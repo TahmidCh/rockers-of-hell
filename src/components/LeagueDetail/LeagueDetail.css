@@ -1,0 +1,42 @@
+.conditional-img img{
+    width: 90%;
+    padding: 20px 0;
+}
+
+.league-summary{
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.league-name{
+    padding-top: 80px;
+}
+
+.description{
+    text-align: justify;
+    padding: 40px 0;
+}
+
+.social-icon a{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.social-icon{
+    background-color: slategray;
+    border-radius: 10px;
+}
+
+#fb{
+    color: darkblue;
+}
+
+#twitter{
+    color: skyblue;
+}
+
+#youtube{
+    color: red;
+}
