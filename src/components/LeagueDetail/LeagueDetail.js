@@ -65,11 +65,13 @@ const LeagueDetail = () => {
                 </div>
                 <div className="social-icon">
                     
-                        <a id="fb" href={league.strFacebook}> <FontAwesomeIcon icon={faFacebook} />     </a>
-                        <a id="twitter" href={league.strTwitter}><FontAwesomeIcon icon={faTwitterSquare} />     </a>
-                        <a id="youtube" href={league.strYoutube}><FontAwesomeIcon icon={faYoutube} />     </a>
+                        <a id="fb" href={`https://${ league.strFacebook }`}> <FontAwesomeIcon icon={faFacebook} />     </a>
+                        <a id="twitter" href={`https://${ league.strTwitter }`}><FontAwesomeIcon icon={faTwitterSquare} />     </a>
+                        <a id="youtube" href={`https://${ league.strYoutube }`}><FontAwesomeIcon icon={faYoutube} />     </a>
 
                 </div>
+                
+                
                 
             </Container>
         </div>
